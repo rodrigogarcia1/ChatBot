@@ -1,0 +1,40 @@
+{"intents":[
+  { "tag": "competencias_habilidades",
+    "patterns":["Qual o objetivo do TCC?", "Qual a finalidade do TCC?"],
+    "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em  desenvolver uma solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso degraduação."]
+  },
+  { "tag": "deve_conter",
+    "patterns":["O que deve conter no meu TCC?", "O que devo colocar no meu TCC?", "O que não pode faltar no TCC"],
+    "responses": ["A monografia deve apresentar: uma introdução e os objetivos, conceituação do problema, revisão da literatura, desenvolvimento de arquitetura de solução, discussão dos resultados e considerações finais."]
+  },
+  { "tag": "artefato",
+    "patterns":["Como deve ser o artefato?", "Como será realizado o artefato?"],
+    "responses": ["O artefato deve ser uma solução computacional elaborada em um desenvolvimento de um software (e eventualmente o desenvolvimento de um hardware)."]
+  },
+  { "tag": "grupos",
+    "patterns":["O trabalho será realizado em grupos?", "Pode fazer o TCC em grupos", "Grupos de quantos é permitido?"],
+    "responses": ["Os grupos devem conter 4 integrantes, sendo que cada grupo deve possuir um professor orientador escolhido a seu critério. Os orientadores aconselham alterações ou aperfeiçoamentos na delimitação do escopo ou da metodologia a ser empregada."]
+  },
+
+  { "tag": "professor_orientador",
+    "patterns":["Qual o trabalho do professor orientador?","Como o orientador irá me ajudar?"],
+    "responses": ["Cabe ao professor orientador: conduzir o desenvolvimento do trabalho, auxiliar os alunos nos métodos de pesquisa, auxiliar na busca dos resultados e na reflexão sobre os resultados obtidos, assegurar que os alunos estejam cumprindo as atividades propostas durante as aulas, informar ao professor da disciplina eventuais desvios ou situações que mereçam atenção e/ou possam prejudicar a evolução do trabalho ou convivência do grupo"]
+  },
+  { "tag": "professor_disciplina",
+    "patterns":["Qual o trabalho do professor da disciplina?","Como o professor da disciplina irá me ajudar?"],
+    "responses": ["Os professores da disciplina de TCC devem: apresentar semanalmente tópicos relevantes sobre metodologia científica e organização do trabalho, acompanham a evolução de cada grupo, auxiliando os alunos na condução das atividades, validar as entregas no MOODLE, Informar ao professor orientador eventuais desvios ou situações que mereçam atenção e/ou possam prejudicar a evolução do trabalho ou convivência do grupo"]
+  },
+  { "tag": "dinamica",
+    "patterns":["Como é o formato do trabalho?", "Qual é o formato do TCC?", "Como está proposta a dinâmica?"],
+    "responses": ["Os alunos têm dois semestres para desenvolver todas as atividades relacionadas ao trabalho, e no final de cada semestre serão avaliados por uma banca de professores. A banca avaliará a monografia e a solução implementada com base em um conjunto de premissas de avaliação determinadas e conhecidas tanto pelos professores quanto pelos alunos."]
+  },
+  { "tag": "avaliacao",
+    "patterns":["Quais são os critérios de avaliação?", "Pelo que serei avaliado?"],
+    "responses": ["A avaliação final do trabalho é uma composição da avaliação da banca, do professor orientador e dos professores da disciplina de Trabalho de Final de Curso. A avaliação da banca é definitiva, ou seja, é ela quem determina se o trabalho será aprovado ou não. O Orientador pode, a seu critério e com as justificativas acordadas com o professor da disciplina, não enviar um determinado trabalho para a banca. Neste caso, o grupo será considerado automaticamente reprovado. Embora o trabalho seja realizado em grupo, a avaliação será individual, ou seja, o aluno será avaliado por sua contribuição efetiva no trabalho realizado. O Orientador e/ou o professor da disciplina poderão aumentar ou reduzir as notas individuais dos integrantes do grupo, ajustando a mesma em função da participação de cada um dos integrantes do grupo. O grupo poderá também avaliar a participação individual de cada um dos seus integrantes. Esta avaliação deve ser considerada e revisada pelo professor da disciplina, que não possui a obrigação de acatá-la! A individualização da nota não é um tema a ser tratado pela banca de avaliação, apesar de ela receber estes resultados"]
+  },
+  { "tag": "despedida",
+  "patterns":["Valeu", "Tchau","Obrigado","Até mais","Falo"],
+  "responses": ["Foi um prazer ajudar."]
+}
+]
+}
